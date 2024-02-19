@@ -1,0 +1,33 @@
+        /* Псевдокласи стану */
+        ul li:nth-child(odd) a {
+            color: blue; 
+        }
+        ul li:nth-child(even) a {
+            color: green; 
+        }
+        ul li a:hover {
+            text-decoration: none; 
+        }
+        ul li a:active {
+            color: red; 
+        }
+        ul li a:focus {
+            font-weight: bold; 
+        }
+
+        /* Структурні псевдокласи */
+        ul li:first-child a {
+            font-style: italic; 
+        }
+        ul li:last-child a {
+            text-transform: uppercase; 
+        }
+        ul li:nth-child(3) a {
+            background-color: yellow; 
+        }
+        ul li:nth-last-child(2) a {
+            border: 1px solid black; 
+        }
+        ul li:nth-of-type(2) a {
+            font-size: 20px; 
+        }
